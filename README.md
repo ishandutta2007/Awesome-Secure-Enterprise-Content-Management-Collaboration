@@ -22,6 +22,7 @@ This repository provides a comprehensive, curated directory of **Enterprise Cont
 - [☁️ SaaS & Hosted Enterprise Platforms](#%EF%B8%8F-saas--hosted-enterprise-platforms)
 - [🔓 Open-Source & Self-Hosted Repositories](#-open-source--self-hosted-repositories)
 - [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
 - [⚠️ Disclaimer & Security Hardening](#%EF%B8%8F-disclaimer--security-hardening)
 - [📈 Star History](#-star-history)
 
@@ -150,6 +151,16 @@ Contributions are welcome! Help us maintain the most comprehensive and up-to-dat
 2. ➕ **Add or update entries** in `README.md` maintaining table/list schema.
 3. 📝 **Ensure accurate metrics**: Include vendor name, product link, 1–2 sentence description, exact pricing tier, and open-source star badge.
 4. 🚀 **Submit a Pull Request** with a clear title and brief description of additions.
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for exploring and using this repository! If you find this curated list of secure enterprise content management and collaboration platforms helpful, please consider supporting the project:
+
+- ⭐ **Star this repository** to help others discover it.
+- 🍴 **Fork & Share** with your team, network, and security community.
+- ☕ **Sponsor / Buy me a coffee**: Support ongoing maintenance and research via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
 
 ---
 
