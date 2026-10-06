@@ -1,295 +1,172 @@
-# Awesome-Secure-Enterprise-Content-Management-Collaboration
-
-## Top Secure Enterprise Content Management & Collaboration Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Secure File Sharing, Document Collaboration & Self-Hosted ECM*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **commercial ECM and collaboration platforms** and **open-source projects** that store, share, and govern enterprise content with security, compliance, and collaboration controls. These tools range from cloud file sync services to full document management systems with retention, eDiscovery, and DLP.
-
-
-
-**Examples** include Amazon WorkDocs, Box Enterprise, Dropbox Business, Microsoft OneDrive/SharePoint, Google Workspace Drive, Citrix ShareFile, Egnyte, OpenText Content Cloud, Hyland OnBase, and Axway Syncplicity (the category leaders).
-
-
-
-**Open-source emphasis**: Secure ECM and collaboration is a strong open-source domain. **Nextcloud** leads as the most comprehensive sovereign collaboration platform with 400,000+ deployments, **OpenCloud** brings a modern Go-based alternative with GDPR compliance, **Alfresco Community** delivers enterprise document management, **Seafile** provides secure file sync, and **OpenKM**, **LogicalDOC**, and **Mayan EDMS** handle document governance. **CryptPad** and **Twake** add E2E encryption and team collaboration. This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Microsoft SharePoint / OneDrive](https://www.microsoft.com/microsoft-365/sharepoint/collaboration)**  
-
-  **The enterprise ECM standard** — document libraries, versioning, workflows, and Microsoft 365 integration . **Best for Microsoft-centric organizations** .
-
-
-
-- **[Box Enterprise](https://www.box.com/)**  
-
-  **Secure content management platform** — file sharing, workflow automation, and compliance . **Best for enterprise content governance** .
-
-
-
-- **[Dropbox Business](https://www.dropbox.com/business)**  
-
-  **Cloud file storage and sharing** — team collaboration, smart sync, and integrations . **Best for simple, reliable file sync** .
-
-
-
-- **[Google Workspace Drive](https://workspace.google.com/products/drive/)**  
-
-  **Cloud storage integrated with Google Workspace** — real-time collaboration and AI-powered search . **Best for Google ecosystem users** .
-
-
-
-- **[Citrix ShareFile](https://www.sharefile.com/)**  
-
-  **Secure file sharing and transfer** — client portals and compliance . **Best for legal and financial services** .
-
-
-
-- **[Egnyte](https://www.egnyte.com/)**  
-
-  **Content collaboration and governance** — hybrid cloud architecture and compliance . **Best for hybrid cloud content management** .
-
-
-
-- **[OpenText Content Cloud](https://www.opentext.com/)**  
-
-  **Enterprise content management suite** — document capture, archiving, and governance at scale . **Best for large enterprises** .
-
-
-
-- **[Hyland OnBase](https://www.hyland.com/)**  
-
-  **Enterprise content services platform** — document management, case management, and process automation . **Best for regulated industries** .
-
-
-
-- **[Axway Syncplicity](https://www.syncplicity.com/)**  
-
-  **Secure enterprise file sync and sharing** — governance and compliance . **Best for enterprise file governance** .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Sovereign Collaboration Platforms
-
-
-
-- **[Nextcloud](https://github.com/nextcloud/server)**  
-
-  **The most comprehensive open-source collaboration platform**, AGPL-3.0 licensed with **25,000+ GitHub stars** and **400,000+ deployments** . **File sync and share, Nextcloud Office (real-time document editing), Talk (video conferencing), Groupware (Mail, Calendar, Contacts), Deck (project management), and AI Assistant** . **Enterprise governance features**: Sensitivity Labels, Legal Hold, data lifecycle management, and audit logging . **Nextcloud Contacts automatically generates organization charts** . **The de facto open-source Microsoft 365 alternative** — used by Amnesty International Spain and numerous public and private organizations . **Best for comprehensive sovereign collaboration** .
-
-
-
-- **[OpenCloud](https://github.com/opencloud-eu/opencloud)**  
-
-  **Modern open-source platform for secure, GDPR-compliant file management**, Apache-2.0 and AGPL-3.0 licensed . **Developed in Go for performance and scalability** — positioned as a sovereign alternative to Microsoft SharePoint and Google Drive . **Collabora Online integration for web office** . **The most modern European sovereign collaboration platform** . **Best for GDPR-compliant file management** .
-
-
-
-- **[Twake Workplace](https://github.com/linagora/twake-workplace)**  
-
-  **Sovereign open-source collaborative suite from LINAGORA** — Matrix chat, JMAP email, Drive, and OnlyOffice integration . **Positioned as a European alternative to Microsoft 365 and Google Workspace** . **SecNumCloud compliance process underway** . **Best for French and European sovereignty** .
-
-
-
-### Enterprise Content Management (ECM)
-
-
-
-- **[Alfresco Community](https://github.com/Alfresco/alfresco-community-repo)**  
-
-  **Open-source enterprise content management platform**, LGPL-3.0 licensed . **Document management, collaboration, records management, and workflow** . **The de facto open-source SharePoint alternative** . **Best for enterprise document governance** .
-
-
-
-- **[OpenKM Community](https://github.com/openkm/document-management-system)**  
-
-  **Open-source document management system**, GPL-2.0 licensed . **Document management, records management, and workflow** . **Best for SMB document management** .
-
-
-
-- **[LogicalDOC Community](https://github.com/logicaldoc/community)**  
-
-  **Open-source document management system**, LGPL-3.0 licensed . **Document management, versioning, and full-text search** . **Best for document-centric workflows** .
-
-
-
-- **[Mayan EDMS](https://gitlab.com/mayan-edms/mayan-edms)**  
-
-  **Open-source electronic document management system**, GPL-2.0 licensed . **Document management with workflows, OCR, and metadata** . **Best for document-heavy industries** .
-
-
-
-- **[Nuxeo](https://github.com/nuxeo/nuxeo)**  
-
-  **Open-source content management platform**, Apache-2.0 licensed . **Enterprise content management with AI and automation** . **Best for digital asset management** .
-
-
-
-### Secure File Sync & Sharing
-
-
-
-- **[Seafile](https://github.com/haiwen/seafile)**  
-
-  **Open-source file sync and share platform**, AGPL-3.0 licensed with **13,000+ GitHub stars** . **Self-hosted with file synchronization, sharing, versioning, and encryption** . **The best open-source Dropbox alternative** . **Best for secure file sync** .
-
-
-
-- **[ownCloud](https://github.com/owncloud/core)**  
-
-  **Self-hosted file sync and share**, AGPL-3.0 licensed . **File sync, sharing, calendars, and contacts** . **Best for self-hosted file collaboration** .
-
-
-
-- **[Pydio Cells](https://github.com/pydio/cells)**  
-
-  **Open-source file sharing platform**, AGPL-3.0 licensed . **Modern file sharing with granular access control** . **Best for enterprise file sharing** .
-
-
-
-- **[Nextcloud Files](https://github.com/nextcloud/server)** — Already listed. **File sync and share component** .
-
-
-
-### Encrypted & Privacy-Focused
-
-
-
-- **[CryptPad](https://github.com/cryptpad/cryptpad)**  
-
-  **Privacy-first, end-to-end encrypted collaboration suite**, AGPL-3.0 licensed with **5,000+ GitHub stars** . **Zero-knowledge architecture** — server cannot read document content . **Rich text, Sheets, Slides, Kanban, and Whiteboard** . **The leading open-source option for maximum privacy and confidentiality** . **Best for journalists, legal teams, and privacy-conscious organizations** .
-
-
-
-- **[Filecloud](https://github.com/Filecloud/filecloud)** — Enterprise file sharing with encryption .
-
-
-
-- **[Filestash](https://github.com/mickael-kerjean/filestash)**  
-
-  **Open-source file manager with plugin architecture**, AGPL-3.0 licensed . **Connect to any storage backend** — S3, FTP, WebDAV, Git, and more . **Best for custom file management workflows** .
-
-
-
-### Document Collaboration & Office
-
-
-
-- **[Collabora Online](https://github.com/CollaboraOnline/online)**  
-
-  **Enterprise-grade online document editing**, MPL-2.0 licensed . **LibreOffice-based with ODF and DOCX support** . **Integrates with Nextcloud, ownCloud, and OpenCloud** . **Best for browser-based document editing** .
-
-
-
-- **[OnlyOffice Docs](https://github.com/ONLYOFFICE/DocumentServer)**  
-
-  **Open-source collaborative office suite**, AGPL-3.0 licensed . **Highest Microsoft format compatibility** . **Real-time co-editing, track changes, and comments** . **Best for collaborative document editing** .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Nextcloud Hub** — Full collaboration suite with Office, Talk, Groupware, and Deck .
-
-- **Apache OpenMeetings** — Web conferencing and collaboration .
-
-- **Liferay** — Open-source portal and content management .
-
-- **Drupal** — Open-source CMS with enterprise modules .
-
-- **Joomla** — Open-source CMS .
-
-- **Plone** — Enterprise CMS with security focus .
-
-- **Magnolia** — Open-source CMS with enterprise features .
-
-- **CrafterCMS** — Open-source CMS for digital experiences .
-
-- **XWiki** — Open-source enterprise wiki with document management .
-
-- **BookStack** — Open-source documentation platform .
-
-
-
-**Frameworks for building custom secure ECM and collaboration solutions**: Combine **Nextcloud** for comprehensive sovereign collaboration with Office, Talk, Groupware, and governance features . Use **OpenCloud** for modern Go-based GDPR-compliant file management . Deploy **Alfresco Community** for enterprise document management . Choose **Seafile** or **Pydio** for secure file sync and sharing . Integrate **CryptPad** for end-to-end encrypted collaboration . Use **Mayan EDMS** or **LogicalDOC** for document governance . Note that true enterprise ECM with managed infrastructure, eDiscovery, and vendor-supported SLAs (Box, SharePoint, OpenText) remains primarily commercial territory; open-source stacks provide strong file sync, document management, and collaboration foundations that require integration for complete enterprise content governance.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- ECM platforms handle sensitive business content and potentially regulated data. Self-hosted solutions require proper security hardening, encryption at rest and in transit, access controls, and compliance with data privacy regulations (GDPR, HIPAA, SOC 2).
-
-- **E2E encryption has trade-offs** — CryptPad's zero-knowledge architecture means lost passwords cannot be recovered, and server-side search/moderation is limited . Plan key management carefully.
-
-- **Records management features vary** — Nextcloud provides Sensitivity Labels and Legal Hold; Alfresco and Mayan EDMS offer retention schedules and compliance workflows . Evaluate against your regulatory requirements.
-
-- **Open-source ECM requires operational responsibility** — installation, maintenance, security patching, and backups are your responsibility. Managed platforms shift this to the vendor .
-
-- The open-source ecosystem provides strong file sync, document management, and collaboration foundations, but **managed infrastructure, eDiscovery, and vendor-supported SLAs** remain primarily commercial offerings.
-
-
+# Awesome Secure Enterprise Content Management & Collaboration Ecosystem 🔐🚀
+
+![Awesome Secure Enterprise Content Management & Collaboration Banner](./assets/banner.svg)
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&oogo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Secure-Enterprise-Content-Management-Collaboration"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Secure-Enterprise-Content-Management-Collaboration?style=social" alt="GitHub stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Secure-Enterprise-Content-Management-Collaboration/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Secure-Enterprise-Content-Management-Collaboration?style=social" alt="GitHub forks"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
+## 💡 Overview & Market Landscape
 
+This repository provides a comprehensive, curated directory of **Enterprise Content Management (ECM)** systems, **Secure File Sharing & Sync (EFSS)** solutions, **Digital Asset Management (DAM)** tools, and **Sovereign Collaboration Suites**. Designed for enterprise IT leaders, security engineers, compliance officers, and system administrators looking to deploy secure document governance, Data Loss Prevention (DLP), and eDiscovery frameworks.
 
-**Made for IT administrators, records managers, compliance officers, and organizations seeking ECM sovereignty.**  
+---
 
-Let's make secure enterprise content management and collaboration more open, transparent, and sovereign.
+## 📌 Table of Contents
+
+- [☁️ SaaS & Hosted Enterprise Platforms](#%EF%B8%8F-saas--hosted-enterprise-platforms)
+- [🔓 Open-Source & Self-Hosted Repositories](#-open-source--self-hosted-repositories)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer & Security Hardening](#%EF%B8%8F-disclaimer--security-hardening)
+- [📈 Star History](#-star-history)
+
+---
+
+## ☁️ SaaS & Hosted Enterprise Platforms
+
+> 📊 **Market Size & Structure**: The global Enterprise Content Management (ECM) market is estimated at **$75.4 Billion in 2026** (projected to exceed $130 Billion by 2030 at a CAGR of ~14.2%). The sector is **moderately fragmented**, anchored by mega-cap tech giants (Microsoft, Alphabet) while maintaining significant market share across specialized content governance providers (Box, OpenText, Egnyte, Hyland).
+
+### 🏢 Commercial Platforms Comparison
+
+Below is the structured breakdown of leading commercial ECM and file collaboration platforms, sorted by **Company Size (Revenue / Valuation)** in descending order:
+
+| Company / Platform | Market Valuation / Revenue Size | Starting Paid Tier Pricing | Free Tier / Trial Plan Limits | Key Enterprise Features & Best For |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Google Workspace Drive](https://workspace.google.com/products/drive/)** | **~$2.4 Trillion Market Cap** (Alphabet) | **$6.00 / user / month** (Business Starter) | **15 GB free forever per account** | Cloud storage with real-time co-authoring & AI enterprise search. *Best for Google ecosystem users.* |
+| **[Microsoft SharePoint / OneDrive](https://www.microsoft.com/microsoft-365/sharepoint/collaboration)** | **~$2.3 Trillion Market Cap** (Microsoft) | **$6.00 / user / month** (Microsoft 365 Business Basic) | **30-day free trial** (Includes 1 TB OneDrive per user for up to 25 users) | Enterprise document libraries, versioning, workflows & compliance. *Best for Microsoft-centric organizations.* |
+| **[Citrix ShareFile](https://www.sharefile.com/)** | **~$16.5 Billion Valuation** (Cloud Software Group) | **$10.00 / user / month** (Standard Plan) | **30-day free trial** (Full client portal access for up to 25 users) | Encrypted file transfer, client portals & compliance workflows. *Best for legal, accounting, & financial services.* |
+| **[Dropbox Business](https://www.dropbox.com/business)** | **~$7.8 Billion Market Cap** (Dropbox Inc.) | **$15.00 / user / month** (Standard Plan) | **30-day free trial** (5 TB total storage for 3+ users) | Smart sync, file recovery, team sharing, and digital signatures. *Best for reliable file synchronization.* |
+| **[OpenText Content Cloud](https://www.opentext.com/)** | **~$7.5 Billion Market Cap** (OpenText Corp.) | **$16.00 / user / month** (Core Content SaaS) | **30-day free trial** (10 GB test environment) | Deep ECM, enterprise archiving, document capture, and governance. *Best for global enterprises & records management.* |
+| **[Box Enterprise](https://www.box.com/)** | **~$3.8 Billion Market Cap** (Box Inc.) | **$15.00 / user / month** (Business Plan) | **10 GB free forever** (100 MB single file upload limit) | Advanced content governance, DLP, classification, and workflow automation. *Best for strict content security.* |
+| **[Hyland OnBase](https://www.hyland.com/)** | **~$3.5 Billion Enterprise Valuation** (Thoma Bravo) | **$18.00 / user / month** (Hosted SaaS Tier) | **14-day guided proof-of-concept trial** | Content services platform, case management, and regulatory automation. *Best for healthcare & government compliance.* |
+| **[Egnyte](https://www.egnyte.com/)** | **~$1.2 Billion Valuation** (Private / Venture Backed) | **$20.00 / user / month** (Business Plan) | **15-day free trial** (1 TB trial storage for up to 10 users) | Hybrid cloud architecture, content governance, and ransomware protection. *Best for AEC & hybrid cloud setups.* |
+| **[Axway Syncplicity](https://www.syncplicity.com/)** | **~$450 Million Market Cap** (Axway Software) | **$6.00 / user / month** (Business Plan) | **10 GB free forever** (Single user account) | Enterprise file sync and sharing (EFSS) with policy enforcement. *Best for mobile enterprise file security.* |
+
+---
+
+## 🔓 Open-Source & Self-Hosted Repositories
+
+Below are top open-source Enterprise Content Management, Document Indexing, and Sovereign Collaboration projects on GitHub, **sorted in descending order by GitHub Star Count** 🌟.
+
+- **[AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)** [![GitHub stars](https://img.shields.io/github/stars/AppFlowy-IO/AppFlowy?style=social&color=white)](https://github.com/AppFlowy-IO/AppFlowy/stargazers)  
+  Open-source secure workspace and Notion alternative giving users control over data privacy and offline storage.
+
+- **[AFFiNE](https://github.com/toeverything/AFFiNE)** [![GitHub stars](https://img.shields.io/github/stars/toeverything/AFFiNE?style=social&color=white)](https://github.com/toeverything/AFFiNE/stargazers)  
+  Hyper-canvas knowledge base and privacy-first document collaboration workspace built for self-hosted enterprise teams.
+
+- **[Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)** [![GitHub stars](https://img.shields.io/github/stars/paperless-ngx/paperless-ngx?style=social&color=white)](https://github.com/paperless-ngx/paperless-ngx/stargazers)  
+  Community-favorite document indexer and archivist that transforms physical documents into searchable digital archives with OCR.
+
+- **[Logseq](https://github.com/logseq/logseq)** [![GitHub stars](https://img.shields.io/github/stars/logseq/logseq?style=social&color=white)](https://github.com/logseq/logseq/stargazers)  
+  Privacy-first, open-source knowledge management and organizational document platform operating over local markdown files.
+
+- **[Nextcloud Hub / Server](https://github.com/nextcloud/server)** [![GitHub stars](https://img.shields.io/github/stars/nextcloud/server?style=social&color=white)](https://github.com/nextcloud/server/stargazers)  
+  The de facto open-source sovereign enterprise collaboration suite (File Sync, Nextcloud Office, Talk, Groupware, Deck).
+
+- **[Teable](https://github.com/teableio/teable)** [![GitHub stars](https://img.shields.io/github/stars/teableio/teable?style=social&color=white)](https://github.com/teableio/teable/stargazers)  
+  Super-fast, real-time enterprise content database and collaborative table powered by PostgreSQL.
+
+- **[BookStack](https://github.com/BookStackApp/BookStack)** [![GitHub stars](https://img.shields.io/github/stars/BookStackApp/BookStack?style=social&color=white)](https://github.com/BookStackApp/BookStack/stargazers)  
+  Simple, self-hosted platform for storing and organizing enterprise documentation, wikis, and structured manuals.
+
+- **[Seafile](https://github.com/haiwen/seafile)** [![GitHub stars](https://img.shields.io/github/stars/haiwen/seafile?style=social&color=white)](https://github.com/haiwen/seafile/stargazers)  
+  High-performance open-source file sync and sharing with built-in client drive mapping and library encryption.
+
+- **[DocumenSO](https://github.com/documenso/documenso)** [![GitHub stars](https://img.shields.io/github/stars/documenso/documenso?style=social&color=white)](https://github.com/documenso/documenso/stargazers)  
+  Open-source document signing infrastructure and enterprise e-signature software alternative.
+
+- **[Filestash](https://github.com/mickael-kerjean/filestash)** [![GitHub stars](https://img.shields.io/github/stars/mickael-kerjean/filestash?style=social&color=white)](https://github.com/mickael-kerjean/filestash/stargazers)  
+  Modern web application manager for SFTP, S3, FTP, WebDAV, Git, and cloud storage backends.
+
+- **[ownCloud Core](https://github.com/owncloud/core)** [![GitHub stars](https://img.shields.io/github/stars/owncloud/core?style=social&color=white)](https://github.com/owncloud/core/stargazers)  
+  Self-hosted file sync and share platform for team file governance and enterprise cloud storage access.
+
+- **[CryptPad](https://github.com/cryptpad/cryptpad)** [![GitHub stars](https://img.shields.io/github/stars/cryptpad/cryptpad?style=social&color=white)](https://github.com/cryptpad/cryptpad/stargazers)  
+  Zero-knowledge, end-to-end encrypted real-time collaboration suite (Rich text, Sheets, Code, Kanban, Whiteboard).
+
+- **[ONLYOFFICE Docs](https://github.com/ONLYOFFICE/DocumentServer)** [![GitHub stars](https://img.shields.io/github/stars/ONLYOFFICE/DocumentServer?style=social&color=white)](https://github.com/ONLYOFFICE/DocumentServer/stargazers)  
+  Collaborative online office suite providing native compatibility with Microsoft Office document formats.
+
+- **[OpenCloud](https://github.com/opencloud-eu/opencloud)** [![GitHub stars](https://img.shields.io/github/stars/opencloud-eu/opencloud?style=social&color=white)](https://github.com/opencloud-eu/opencloud/stargazers)  
+  Modern Go-based cloud file management platform built for GDPR-compliant sovereign enterprise storage.
+
+- **[Joomla! CMS](https://github.com/joomla/joomla-cms)** [![GitHub stars](https://img.shields.io/github/stars/joomla/joomla-cms?style=social&color=white)](https://github.com/joomla/joomla-cms/stargazers)  
+  Flexible open-source content management system for corporate publishing and document access control.
+
+- **[Drupal](https://github.com/drupal/drupal)** [![GitHub stars](https://img.shields.io/github/stars/drupal/drupal?style=social&color=white)](https://github.com/drupal/drupal/stargazers)  
+  Enterprise open-source CMS platform with modular access control, workflow capabilities, and digital asset management.
+
+- **[Collabora Online](https://github.com/CollaboraOnline/online)** [![GitHub stars](https://img.shields.io/github/stars/CollaboraOnline/online?style=social&color=white)](https://github.com/CollaboraOnline/online/stargazers)  
+  Enterprise-grade online office suite based on LibreOffice with real-time co-authoring integration for ECMs.
+
+- **[Liferay Portal](https://github.com/liferay/liferay-portal)** [![GitHub stars](https://img.shields.io/github/stars/liferay/liferay-portal?style=social&color=white)](https://github.com/liferay/liferay-portal/stargazers)  
+  Enterprise digital experience platform (DXP) with integrated content management and portal governance.
+
+- **[Pydio Cells](https://github.com/pydio/cells)** [![GitHub stars](https://img.shields.io/github/stars/pydio/cells?style=social&color=white)](https://github.com/pydio/cells/stargazers)  
+  Golang-based enterprise document management and file sharing platform built on a microservices architecture.
+
+- **[XWiki Platform](https://github.com/xwiki/xwiki-platform)** [![GitHub stars](https://img.shields.io/github/stars/xwiki/xwiki-platform?style=social&color=white)](https://github.com/xwiki/xwiki-platform/stargazers)  
+  Advanced open-source enterprise wiki and document governance platform with extensible metadata modules.
+
+- **[OpenKM DMS](https://github.com/openkm/document-management-system)** [![GitHub stars](https://img.shields.io/github/stars/openkm/document-management-system?style=social&color=white)](https://github.com/openkm/document-management-system/stargazers)  
+  Document management system featuring workflow engine, document capture, OCR, and automated metadata ingestion.
+
+- **[Mayan EDMS](https://gitlab.com/mayan-edms/mayan-edms)** [![GitHub stars](https://img.shields.io/github/stars/mayan-edms/mayan-edms?style=social&color=white)](https://gitlab.com/mayan-edms/mayan-edms)  
+  Python-based electronic document management system (EDMS) with OCR, indexing, and compliance workflows.
+
+- **[Nuxeo ECM](https://github.com/nuxeo/nuxeo)** [![GitHub stars](https://img.shields.io/github/stars/nuxeo/nuxeo?style=social&color=white)](https://github.com/nuxeo/nuxeo/stargazers)  
+  Architectural content services platform for enterprise digital asset management and document automation.
+
+- **[Apache OpenMeetings](https://github.com/apache/openmeetings)** [![GitHub stars](https://img.shields.io/github/stars/apache/openmeetings?style=social&color=white)](https://github.com/apache/openmeetings/stargazers)  
+  Open-source web conferencing and collaborative whiteboard platform for secure enterprise communications.
+
+- **[CrafterCMS](https://github.com/craftercms/craftercms)** [![GitHub stars](https://img.shields.io/github/stars/craftercms/craftercms?style=social&color=white)](https://github.com/craftercms/craftercms/stargazers)  
+  Git-based headless enterprise content management platform for dynamic web and mobile applications.
+
+- **[Plone CMS](https://github.com/plone/Products.CMFPlone)** [![GitHub stars](https://img.shields.io/github/stars/plone/Products.CMFPlone?style=social&color=white)](https://github.com/plone/Products.CMFPlone/stargazers)  
+  Battle-tested Python enterprise content management system renowned for high security and granular permissions.
+
+- **[Alfresco Community](https://github.com/Alfresco/alfresco-community-repo)** [![GitHub stars](https://img.shields.io/github/stars/Alfresco/alfresco-community-repo?style=social&color=white)](https://github.com/Alfresco/alfresco-community-repo/stargazers)  
+  Enterprise content management repository offering core ECM capabilities, records management, and CMIS support.
+
+- **[Twake Workplace](https://github.com/linagora/twake-workplace)** [![GitHub stars](https://img.shields.io/github/stars/linagora/twake-workplace?style=social&color=white)](https://github.com/linagora/twake-workplace/stargazers)  
+  Sovereign enterprise collaborative workplace featuring Matrix messaging, JMAP email, drive, and OnlyOffice.
+
+- **[LogicalDOC Community](https://github.com/logicaldoc/community)** [![GitHub stars](https://img.shields.io/github/stars/logicaldoc/community?style=social&color=white)](https://github.com/logicaldoc/community/stargazers)  
+  High-performance document management system focused on full-text indexing, search, and document tracking.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! Help us maintain the most comprehensive and up-to-date repository for enterprise content management and secure collaboration:
+
+1. 🍴 **Fork the repository** on GitHub.
+2. ➕ **Add or update entries** in `README.md` maintaining table/list schema.
+3. 📝 **Ensure accurate metrics**: Include vendor name, product link, 1–2 sentence description, exact pricing tier, and open-source star badge.
+4. 🚀 **Submit a Pull Request** with a clear title and brief description of additions.
+
+---
+
+## ⚠️ Disclaimer & Security Hardening
+
+- 🔐 **Data Security & Privacy**: Self-hosted ECM software requires thorough environment hardening, TLS/SSL transport encryption, disk encryption (LUKS/dm-crypt), and strict RBAC policies.
+- 📜 **Regulatory Compliance**: Evaluate solutions against GDPR, HIPAA, SOC 2 Type II, ISO 27001, and SecNumCloud requirements according to your operational jurisdiction.
+- 🔑 **Encryption Trade-offs**: E2E zero-knowledge tools (e.g. CryptPad) protect data content from server operators but restrict server-side full-text search and admin recovery.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Secure-Enterprise-Content-Management-Collaboration&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Secure-Enterprise-Content-Management-Collaboration&type=date&legend=top-left)
+
+---
+
+<p align="center">
+  <b>Made with ❤️ for IT leaders, security engineers, compliance officers, and open-source software enthusiasts worldwide.</b>
+</p>
